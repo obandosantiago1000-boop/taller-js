@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div id="modal" class="modal">
+        <div class="modal-content">
+
+ 
+            <form id="form">
+                <input type="text" id="nombre" placeholder="Nombre" required>
+                <input type="text" id="descripcion" placeholder="Descripcion" required>
+                <input type="text" id="imagen" placeholder="urlimagen">
+ 
+                <button type="submit">Guardar</button>
+                <button type="button" id="cerrar">Cancelar</button>
+            </form>
+ 
+        </div>
+    </div>
+    <button id="btnNuevo">CREAR NUEVA TARJETA</button>
+    <br>
+    <BR>
+    <section id="contenedorTarjetas">
+    </section>
+    <button id="btnLimpiar">Borrar todas las tarjetas</button>
+</body>
+
+<script src="app.js"></script>
+</html>
